@@ -1,5 +1,5 @@
 # vcvn
-R package for Variable  Selection, Curve Fitting, Variable Conversion, Normalisation and Measures
+R package for Variable  Selection, Curve Fitting, Variable Conversion, Normalisation and Accuracy Measures
 
 This will include following:
 
@@ -15,19 +15,21 @@ This will include following:
 1) Template for Curve Fitting for Contineous and Categorical Variable
 2) Curve Comparision Methods
 3) Curve Indentification
-4) Non - Curve / Random / Many Matching curve Decision Criterion
+4) Curve Tuning
+5) Curve to Normal Conversion
+6) Non - Curve / Random / Many Matching curve Decision Criterion
 
 ## Variable Conversion:
 1) Continuous to Categorical
-1a) Range Binning
-1b) WOE Criterion Binning
-1c) Depedent Binning
+  a) Range Binning
+  b) WOE Criterion Binning
+  c) Dependent Binning
 
 2) Categrical to Contineous
-2a) One - Hot Encoding with and withour reference
-2b) Label Encoding
-2c) Weightage Encoding
-2d) Boosted Encoding ( Based on CatBoost Methodology by Yandex)
+  a) One - Hot Encoding with and without reference
+  b) Label Encoding
+  c) Weightage Encoding
+  d) Boosted Encoding ( Based on CatBoost Methodology by Yandex)
 
 ## Normalisation:
 1) Unit Mean
@@ -42,7 +44,7 @@ This will include following:
 10) Mean Difference wiht SD
 11) Median Difference with SD
 
-*Will also include predict function for applying variable convversion and normalisation on raw data for test data conversion
+**Will also try to include predict function for applying variable conversion and normalisation on raw data.
 
 ## Measures:
 1) RMSE
@@ -55,7 +57,7 @@ This will include following:
 8) AUC
 9) GINI Index
 10) Kendall's Tau
-11) Extesion to caret's ConfusionMatrix
+11) Extension to caret's ConfusionMatrix
 
-*Will include methods for finding best and/or biased limit for probablity cut-off of calssification problem
+**Will also try to include methods for finding best and/or biased limit for probablity cut-off of calssification problem
 
