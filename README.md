@@ -3,7 +3,7 @@ R package for Variable  Selection, Curve Fitting, Variable Conversion, Normalisa
 
 This will include following:
 
-Variable Selection:
+## Variable Selection:
 1) Information Value
 2) Gini Index
 3) Gini Impurity
@@ -11,13 +11,13 @@ Variable Selection:
 5) Misclassification Error
 6) Variable Ranking Methods - voting / scoring / weighted scoring / weighted voting
 
-Curve Fitting:
+## Curve Fitting:
 1) Template for Curve Fitting for Contineous and Categorical Variable
 2) Curve Comparision Methods
 3) Curve Indentification
 4) Non - Curve / Random / Many Matching curve Decision Criterion
 
-Variable Conversion:
+## Variable Conversion:
 1) Continuous to Categorical
 1a) Range Binning
 1b) WOE Criterion Binning
@@ -29,7 +29,7 @@ Variable Conversion:
 2c) Weightage Encoding
 2d) Boosted Encoding ( Based on CatBoost Methodology by Yandex)
 
-Normalisation:
+## Normalisation:
 1) Unit Mean
 2) Unit SD
 3) Unit Mean And SD
@@ -42,11 +42,9 @@ Normalisation:
 10) Mean Difference wiht SD
 11) Median Difference with SD
 
-****
-Will also include predict function for applying variable convversion and normalisation on raw data for test data conversion
-****
+*Will also include predict function for applying variable convversion and normalisation on raw data for test data conversion
 
-Measures:
+## Measures:
 1) RMSE
 2) MAE
 3) MAPE
@@ -59,6 +57,5 @@ Measures:
 10) Kendall's Tau
 11) Extesion to caret's ConfusionMatrix
 
-***
-Will include methods for finding best and/or biased limit for probablity cut-off of calssification problem
-***
+*Will include methods for finding best and/or biased limit for probablity cut-off of calssification problem
+
