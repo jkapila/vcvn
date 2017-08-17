@@ -18,6 +18,14 @@ This will include following:
 4) Curve Tuning
 5) Curve to Normal Conversion
 6) Non - Curve / Random / Many Matching curve Decision Criterion
+7) Goodness of Fit Test:
+  a) Kolomogorov- Simronov Test
+  b) Carmer-Von Mises Test
+  c) Anderson-Darling Test
+  d) Shapiro -Wilk Test
+  e) Chi-Squared Test
+  f) Akaike Information Criterion (AIC)
+  g) Hosmer - Lemeshow Test
 
 ## Variable Conversion:
 1) Continuous to Categorical
