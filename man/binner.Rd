@@ -2,13 +2,13 @@
 % Please edit documentation in R/binner.R
 \name{binner}
 \alias{binner}
-\title{Contineou Variabel Binner}
+\title{Contineous Variable Binner}
 \usage{
 binner(x, y = NULL, lower, upper, by, min.obs, sep = "-",
   above.char = "+", digits)
 }
 \arguments{
-\item{x}{Variabel to bin}
+\item{x}{Variable to bin}
 
 \item{y}{Conditional binnig on depedent variable}
 
@@ -30,7 +30,7 @@ binner(x, y = NULL, lower, upper, by, min.obs, sep = "-",
 A binned categorical vector of x
 }
 \description{
-Contineou Variabel Binner
+Contineous Variable Binner
 }
 \examples{
 binner(c(1,2,3,4,5,6,7,8,9,10,11,13,15,77,99))

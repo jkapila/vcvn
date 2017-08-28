@@ -1,7 +1,7 @@
 #'
-#' Contineou Variabel Binner
+#' Contineous Variable Binner
 #'
-#' @param x Variabel to bin
+#' @param x Variable to bin
 #' @param y Conditional binnig on depedent variable
 #' @param lower Lower bound of bins
 #' @param upper Uper bound of bins
